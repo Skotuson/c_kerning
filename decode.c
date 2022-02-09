@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 void stripLF ( char * str ) {
     int l = strlen ( str );
@@ -9,7 +10,12 @@ void stripLF ( char * str ) {
 }
 
 void decode ( const char * str ) {
-    
+    while ( *str ) {
+        if ( !isspace ( *str ) )
+            printf( "%c", *str );
+        str++;
+    }
+    printf( "\n" );
 }
 
 int main ( void ) {
