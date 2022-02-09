@@ -24,10 +24,9 @@ s o
 u s e l e s s*  
 
 **decode.c** 
-> Own implementation in **C**
+> Decodes transformed text ( currently not finished )  
 
 **decode.c Example I/O**  
-> Also can be found in **in.txt** and **out.txt** files  
 
 **Input:**  
 *T h i s  
