@@ -1,14 +1,14 @@
 # Kerning
 
-Very simple program and/or script to transform input into more "**a e s t h e t i c**" form.  
-
-**main.c** 
-> Own implementation in **C**
+Very simple program and/or script to transform input into more "**a e s t h e t i c**" form, or **vice versa**.    
 
 **kerning.sh**
 > Transforms input with the help of bash stream editor **sed**  
 
-**Example I/O**  
+**kern.c** 
+> Own implementation in **C**
+
+**kern.c Example I/O**  
 > Also can be found in **in.txt** and **out.txt** files  
 
 **Input:**  
@@ -22,3 +22,21 @@ useless*
 i s  
 s o  
 u s e l e s s*  
+
+**decode.c** 
+> Own implementation in **C**
+
+**decode.c Example I/O**  
+> Also can be found in **in.txt** and **out.txt** files  
+
+**Input:**  
+*T h i s  
+i s  
+s o  
+u s e l e s s*
+
+**Output:**  
+*This  
+is  
+so  
+useless*  
