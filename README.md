@@ -24,7 +24,7 @@ s o
 u s e l e s s*  
 
 **decode.c** 
-> Decodes transformed text ( currently not finished )  
+> Decodes transformed text 
 
 **decode.c Example I/O**  
 
