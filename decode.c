@@ -10,9 +10,13 @@ void stripLF ( char * str ) {
 }
 
 void decode ( const char * str ) {
+    int spc = 0;
     while ( *str ) {
-        if ( !isspace ( *str ) )
-            printf( "%c", *str );
+        if ( !isspace ( *str ) ) {
+            printf( "%s%c", spc > 1 ? " " : "", *str );
+            spc = 0;
+        }
+        else spc++;
         str++;
     }
     printf( "\n" );
