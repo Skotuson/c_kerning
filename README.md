@@ -9,7 +9,6 @@ Very simple program and/or script to transform input into more "**a e s t h e t 
 > Own implementation in **C**
 
 **kern.c Example I/O**  
-> Also can be found in **in.txt** and **out.txt** files  
 
 **Input:**  
 *This  
